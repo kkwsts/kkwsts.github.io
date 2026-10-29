@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jwzhouu</title>
+  <meta name="description" content="Ph.D. Student">
+  <link rel="stylesheet" href="../static/css/style.css?v=1793307062">
+  <!-- <link rel="icon" href="../static/favicon.svg"> -->
+</head>
+<body class="no-header">
+  
+
+  <main class="container">
+    
+<article class="work-detail">
+  <p class="back"><a href="../">← Home</a></p>
+
+  <header class="detail-header">
+    <h1 class="detail-title">MAJEPPA: Morphing and Assessing in a Unified Piano Performance Space</h1>
+    <p class="work-authors detail-authors"><mark>Jinwen Zhou</mark>, H. Zhang, W. Zhai, J. Liang, A. O. T. Hogg, S. Dixon</p>
+  </header>
+
+  <div class="detail-layout">
+    <aside class="detail-left">
+      <div class="detail-meta">
+        
+        
+          <div class="meta-row"><span class="meta-value">In proceedings of 27th International Society for Music Information Retrieval Conference (ISMIR), 2026</span></div>
+        
+        
+      </div>
+
+      
+        <p class="bracket-links detail-links">
+          <a href="https://arxiv.org/abs/2608.11026" target="_blank" rel="noopener">[Paper]</a>
+          <a href="https://github.com/kkwsts/majeppa" target="_blank" rel="noopener">[GitHub]</a>
+          <a href="https://jepa-demo.vercel.app" target="_blank" rel="noopener">[Demo]</a>
+        </p>
+      
+    </aside>
+
+    <section class="detail-right">
+      
+      
+      <div class="prose">We present MAJEPPA, a self-supervised framework to learn piano performance representations that span the full skill spectrum, from beginner practice sessions to virtuoso concert recordings. We curate the MAJEPPA dataset, comprising ~4,000 annotated recordings across six expertise levels and six recording contexts. We adapt a single pre-trained MIDI autoregressive model with a joint objective: next-token prediction learns score-conditioned performance generation at various skill levels, while InfoNCE and supervised contrastive losses align abstract score and performance representations in a joint embedding space. The proposed model both generates and understands performances in a unified framework. By introducing the EVPMR benchmark, a suite of downstream tasks spanning quality assessment, competition ranking, mistake and technique classification, we evaluate the learnt representations, demonstrating progress towards a real-world model for the piano performance space.</div>
+    </section>
+  </div>
+</article>
+
+  </main>
+
+  
+
+
+  <script>
+    // Live clock next to the location line, like the reference site.
+    (function () {
+      var el = document.getElementById("clock");
+      if (!el) return;
+      function tick() {
+        var d = new Date();
+        function p(n) { return String(n).padStart(2, "0"); }
+        el.textContent = p(d.getHours()) + ":" + p(d.getMinutes()) + ":" + p(d.getSeconds());
+      }
+      tick();
+      setInterval(tick, 1000);
+    })();
+  </script>
+</body>
+</html>
